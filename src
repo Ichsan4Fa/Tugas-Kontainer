@@ -1,0 +1,4 @@
+#run docker to create composer
+docker run --rm -v ${PWD}:/app composer create-project laravel/laravel example-app
+#build container
+docker build -t tomw1808/laravelproject .
